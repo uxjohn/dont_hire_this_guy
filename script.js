@@ -1,12 +1,5 @@
 var usersIdea = prompt("tell me your idea!");
 
-var data = [
-"Hello",
-"Yo Yo",
-"Bonjour",
-"Howdy"
-];
-
 function randomNumberFunction(upper) {
   	return Math.floor( (Math.random() * upper) );
 }
@@ -16,7 +9,9 @@ function thisGuysAnswer() {
 	return data[randomNumber];
 };
 
-alert( thisGuysAnswer() );
+document.write( "<p>" + thisGuysAnswer() + "</p>");
+
+
 
 
 
