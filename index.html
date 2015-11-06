@@ -7,16 +7,19 @@
 </head>
 <body>
 	<div class="container">
-		<div>
-			<p id="response">xxx</p>
+
+		<div class="speech-bubble">
+			<p id="response"></p>
 		</div>
 
-		<div class="charicter">
-			<img class="charicter-img" src=""></img>
+		<div class="character">
+			<img class="character-img" src="img/character.jpg"></img>
 		</div>
-
-		<input id="idea" type="text" name="Your Idea" onkeydown="myFunction(event)">
-		<button onkeyup="thisGuysAnswer()" onclick="thisGuysAnswer()">What do you think?</button>
+		<div style="clear: both;"></div>
+		<div class="input">
+			<input id="idea" type="text" name="Your Idea" onkeydown="myFunction(event)">
+			<button onkeyup="thisGuysAnswer()" onclick="thisGuysAnswer()">Go</button>
+		</div>
 	</div>
 
 
