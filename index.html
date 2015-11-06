@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Dont Hire This Guy</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	
 	<div class="container">
 		<div>
 			<p id="response">xxx</p>
@@ -15,10 +15,10 @@
 			<img class="charicter-img" src=""></img>
 		</div>
 
-		<input id="idea" type="text" name="Your Idea">
-
-		<button onclick="thisGuysAnswer()">What </button>
+		<input id="idea" type="text" name="Your Idea" onkeydown="myFunction(event)">
+		<button onkeyup="thisGuysAnswer()" onclick="thisGuysAnswer()">What do you think?</button>
 	</div>
+
 
 <script src="data.js"></script>
 <script src="script.js"></script>
