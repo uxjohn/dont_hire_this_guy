@@ -434,6 +434,11 @@ body {
 	background-color: #FCD602;
 }
 
+.container {
+  max-width: 414px;
+  margin: auto;
+}
+
 .speech-bubble {
 	position: relative;
 }
@@ -445,15 +450,22 @@ body {
 	margin-top: -4px;
 }
 
+.response-container {
+  position: relative;
+  height: 85px;
+}
+
 #response {
 	background-color: white;
 	padding: 10px;
 	margin: 20px;
 	margin-bottom: 0;
-	font-size: 18px;
+	font-size: 14px;
 	border-radius: 10px;
 	text-align: left;
 	display: inline-block;
+  bottom: 0;
+  position: absolute;
 }
 
 .character-img{
@@ -480,7 +492,7 @@ body {
 
 #idea {
 	width: 90%;
-	font-size: 18px;
+	font-size: 14px;
 	border: none;
 	border-radius: 5px;
 	padding: 10px;
@@ -496,7 +508,7 @@ body {
   border:solid 1px #f39c12;
   background:#e67e22;
   text-align:center;
-  padding:16px 18px 14px;
+  padding:14px 16px 12px;
   margin: 12px;
   font-size: 12px;
   
@@ -515,5 +527,42 @@ body {
     box-shadow: 0px 2px 0px #d35400;
     position:relative;
     top:4px;
+}
+
+.ref {
+  font-style: italic;
+  font-size: 10px;
+}
+
+a {
+  color: black;
+}
+
+
+@media (min-height: 481px) {
+  .character-img{
+    width: 65%;
+  }
+
+}
+
+@media (min-height: 628px) {
+
+  .character-img{
+    width: 75%;
+  }
+
+  #response {
+    font-size: 20px;
+  }
+
+  #idea {
+    font-size: 20px;
+  }
+
+  .response-container {
+    height: 100px;
+  }
+
 }
 

@@ -9,7 +9,9 @@
 <body>
 	<div class="container">
 		<div class="speech-bubble">
-			<p id="response"></p>			
+			<div class="response-container">
+				<p id="response"></p>	
+			</div>		
 		</div>
 		<img class="speech-tail" src="img/flick.svg" alt="">
 
@@ -17,10 +19,11 @@
 			<img class="character-img" src="img/character.svg"></img>
 		</div>
 		<div class="input">
-			<input id="idea" type="text" name="Your Idea" onkeydown="myFunction(event)">
+			<input id="idea" type="text" placeholder="Type your idea" name="Your Idea" onkeydown="myFunction(event)">
 		</div>
 		<div class="button-holder">
 			<button class="button-3d" onkeyup="thisGuysAnswer()" onclick="thisGuysAnswer()">Go</button>
+			<p class="ref">Illustration by <a target="_blank" href="xxx">Shaun Lynch</a>, development by <a target="_blank" href="http://uxjohn.github.io/external_portfolio/">John Morgan</a>.</p>
 		</div>
 	</div>
 
