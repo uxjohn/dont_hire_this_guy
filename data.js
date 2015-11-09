@@ -86,7 +86,7 @@ var data = [
 "Let’s wait ‘til we see the numbers.",
 "You’re proposing what?",
 "Let’s not rock the boat.",
-"...",
+". . . .",
 "HAHAH",
 "Where did that come from?",
 "I’ve got a better idea.",
