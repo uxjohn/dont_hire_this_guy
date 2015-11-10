@@ -1,3 +1,14 @@
+@font-face {
+    font-family: Kameron;
+    src: url(fonts/kameron/Kameron-Regular.ttf);
+}
+
+@font-face {
+    font-family: Sansitaone;
+    src: url(fonts/sansitaone/SansitaOne.ttf);
+}
+
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
@@ -466,6 +477,7 @@ body {
 	display: inline-block;
   bottom: 0;
   position: absolute;
+  font-family: Sansitaone;
 }
 
 .character-img{
@@ -483,6 +495,7 @@ body {
 .input {
 	width: 100%;
 	text-align: center;
+  font-family: Kameron;
 }
 
 .button-holder {
